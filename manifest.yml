@@ -1,0 +1,6 @@
+applications:
+- name: sb-thymeleaf-startup
+path: target/sb-thymeleaf-startup-0.0.1-SNAPSHOT.jar
+domain: cfapps.io
+memory: 1024M
+instances: 1

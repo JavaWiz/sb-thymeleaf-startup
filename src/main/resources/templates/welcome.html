@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en" th:replace="fragments/header :: headerfiles"></head>
+<body>
+	<nav lang="en" th:replace="fragments/navbar :: navbar"></nav>
+	<div class="container-fluid">
+		<div class="starter-template">
+			<h1>Spring Boot Web Thymeleaf Example</h1>
+			<h2>
+				<span th:text="'Message: ' + ${message}"></span>
+			</h2>
+		</div>
+	</div>
+	<!-- /.container -->
+	<div lang="en" th:replace="fragments/footer :: footer"></div>
+</body>
+</html>

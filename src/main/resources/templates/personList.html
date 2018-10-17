@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en" th:replace="fragments/header :: headerfiles"></head>
+<body>
+	<nav lang="en" th:replace="fragments/navbar :: navbar"></nav>
+	<div class="container-fluid">
+		<a href="addPerson" class="btn btn-default">Add Person</a>
+		<br /> <br />
+		<div lang="en" th:replace="fragments/personTable :: personTable"></div>
+	</div>
+	<div lang="en" th:replace="fragments/footer :: footer"></div>
+</body>
+</html>

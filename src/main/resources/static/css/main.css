@@ -1,0 +1,19 @@
+body{
+	margin-top:70px;
+	font-family: "Roboto", "Open Sans", sans-serif;
+}
+
+h1{
+	color:#0000FF;
+}
+
+h2{
+	color:#FF0000;
+}
+
+table {
+    border-collapse: collapse;
+}
+ 
+table th, table td {
+    padding: 5px;
